@@ -26,6 +26,20 @@ The proposed VLRT is compared with several state-of-the-art video captioning mod
 <image src="maps/table3.png" width="650">
 <br/><font>Table 3. Performance comparison on EMVPC.</font>
 </p>
+
+### Usage:
+
+#### Preparations
+```
+pip install -r requirements.txt
+```
+Follow the steps in `data/README.md`.
+
+#### Data preparation
+msrvtt
+For the convenience, you can also download the splits and captions by,
+wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
+
   
 ### Citation:
 
