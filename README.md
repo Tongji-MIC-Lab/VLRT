@@ -36,15 +36,34 @@ pip install -r requirements.txt
 Follow the steps in `data/README.md`.
 
 #### Data preparation
-msrvtt
+msrvtt: wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
 
-wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
+msvd: wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msvd_data.zip
 
-msvd
+charades:  https://prior.allenai.org/projects/charades
 
-wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msvd_data.zip
+activitynet: http://activity-net.org/download.html
 
+#### Compress Video for Speed-up (optional)
 
+```
+python vl-align/preprocess/compress_video.py --input_root [raw_video_path] --output_root [compressed_video_path]
+```
+
+### Training vision-language
+```
+bash vl-align/train_vl.sh
+```
+
+### Training captioning 
+```
+python main.py
+```
+
+### Testing
+```
+python main_test.py
+```
   
 ### Citation:
 
