@@ -7,6 +7,7 @@ The overall pipeline of the proposed VLRT model is illustrated in Fig. 1. First,
 <image src="maps/fig1.jpg" width="800">
 <br/><font>Fig. 1. Overview of the proposed VLRT framework.</font>
 </p>
+  
 ## Results:
 The proposed VLRT is compared with several state-of-the-art video captioning models on five public datasets. The experimental results are shown in Table 1, Table 2 and Table 3. Then, qualitative experiments are conducted on three benchmark datasets to verify the effectiveness of the proposed VLRT, as illustrated in Fig. 2. 
 <p align="center">
