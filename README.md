@@ -30,9 +30,9 @@ The proposed VLRT is compared with several state-of-the-art video captioning mod
 ### Usage:
 
 #### Preparations
-```
-pip install -r requirements.txt
-```
+- Python 3.6
+- pytorch = 1.4.0
+- Other python packages: nltk, pycocotools, pyyaml, easydict, datasets, boto3, ftfy, regex, tqdm
 Follow the steps in `data/README.md`.
 
 #### Data preparation
