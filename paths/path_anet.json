@@ -1,0 +1,17 @@
+{ "output_dir": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/dm.token",
+  "ft_root": "/root/data1/ltp/codes/vision-language/features/activitynet/clip4clip_ep_16/train/",
+  "ft_root_val": "/root/data1/ltp/codes/vision-language/features/activitynet/clip4clip_ep_16/val/",
+  "cap_file": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/ref_paragraphs.json",
+  "word2int_file": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/word2int.json",
+  "int2word_file": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/int2word.json",
+  "name_file": {
+    "tst": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/ae_test.npy",
+    "val": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/ae_val.npy",
+    "trn": "/root/data1/ltp/codes/video-paragraph-captioning/aa-paper/v2_visual_clip4clip/datas/activitynet/trn.npy"
+  },
+  "knowledge_file": {
+    "tst": "/root/data1/ltp/codes/vision-language/features/activitynet/lang_feats_vit16/val_encode/",
+    "val": "/root/data1/ltp/codes/vision-language/features/activitynet/lang_feats_vit16/val_encode/",
+    "trn": "/root/data1/ltp/codes/vision-language/features/activitynet/lang_feats_vit16/train_encode/"
+  }
+}
