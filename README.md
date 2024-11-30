@@ -9,13 +9,18 @@ Fig. 1. Overview of the proposed VLRT framework.
 The proposed VLRT is compared with several state-of-the-art video captioning models on five public datasets. The experimental results are shown in Table 1, Table 2 and Table 3. Then, qualitative experiments are conducted on three benchmark datasets to verify the effectiveness of the proposed VLRT, as illustrated in Fig. 2. 
 ![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/fig4.jpg)
 Fig. 2. Visualized comparison of the proposed VLRT model, HMN, SwinBERT, BMT, TDPC and the ground-truth on three benchmark datasets.
-![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table1.png)
-Table 1. Performance comparison on MSVD and MSRVTT.
-![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table2.png)
-Table 2. Performance comparison on Charades Captions and ActivityNet Captions.
-![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table3.png)
-Table 3. Performance comparison on EMVPC.
-
+<p align="center">
+<image src="maps/table1.png" width="650">
+<br/><font>Table 1. Performance comparison on MSVD and MSRVTT.</font>
+</p>
+<p align="center">
+<image src="maps/table2.png" width="650">
+<br/><font>Table 2. Performance comparison on Charades Captions and ActivityNet Captions.</font>
+</p>
+<p align="center">
+<image src="maps/table3.png" width="650">
+<br/><font>Table 3. Performance comparison on EMVPC.</font>
+</p>
 ### Citation:
 
 Please cite the following paper if you find this work useful:
