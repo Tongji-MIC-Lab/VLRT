@@ -34,8 +34,6 @@ The proposed VLRT is compared with several state-of-the-art video captioning mod
 - pytorch = 1.4.0
 - Other python packages: nltk, pycocotools, pyyaml, easydict, datasets, boto3, ftfy, regex, tqdm
 
-Follow the steps in `data/README.md`.
-
 #### Data preparation
 msrvtt: wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
 
