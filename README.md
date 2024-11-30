@@ -9,7 +9,7 @@ The overall pipeline of the proposed VLRT model is illustrated in Fig. 1. First,
 </p>
   
 ## Results:
-The proposed VLRT is compared with several state-of-the-art video captioning models on five public datasets. The experimental results are shown in Table 1, Table 2 and Table 3. Then, qualitative experiments are conducted on three benchmark datasets to verify the effectiveness of the proposed VLRT, as illustrated in Fig. 2. 
+Qualitative experiments are conducted on three benchmark datasets to verify the effectiveness of the proposed VLRT, as illustrated in Fig. 2. Then, the proposed VLRT is compared with several state-of-the-art video captioning models on five public datasets. The experimental results are shown in Table 1, Table 2 and Table 3. 
 <p align="center">
 <image src="maps/fig4.jpg" width="650">
 <br/><font>Fig. 2. Visualized comparison of the proposed VLRT model, HMN, SwinBERT, BMT, TDPC and the ground-truth on three benchmark datasets.</font>
