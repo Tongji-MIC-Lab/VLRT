@@ -5,3 +5,20 @@ Video-to-text generation is a challenging task that involves translating video c
 The overall pipeline of the proposed VLRT model is illustrated in Fig. 1. First, the visual relation modeling block obtains higher-order characteristics of visual features and establishes semantic associations between regional and global features. Meanwhile, the knowledge attention block explores hierarchical textual information and captures cross-modal relationships. Finally, the text generation module produces video captions and completes multiple rounds of dialogues.
 ![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/fig1.jpg)
 Fig. 1. Overview of the proposed VLRT framework.
+## Results:
+The proposed VLRT is compared with several state-of-the-art video captioning models on five public datasets. The experimental results are shown in Table 1, Table 2 and Table 3. Then, qualitative experiments are conducted on three benchmark datasets to verify the effectiveness of the proposed VLRT, as illustrated in Fig. 2. 
+![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/fig4.jpg)
+Fig. 2. Visualized comparison of the proposed VLRT model, HMN, SwinBERT, BMT, TDPC and the ground-truth on three benchmark datasets.
+![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table1.jpg)
+Table 1. Performance comparison on MSVD and MSRVTT.
+![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table2.jpg)
+Table 2. Performance comparison on Charades Captions and ActivityNet Captions.
+![pipeline](https://github.com/Tongji-MIC-Lab/VLRT/blob/main/maps/table3.jpg)
+Table 3. Performance comparison on EMVPC.
+
+### Citation:
+
+Please cite the following paper if you find this work useful:
+
+Tengpeng Li, Hanli Wang, Qinyu Li, Zhangkai Ni, Vision-Language Relational Transformer for Video-to-Text Generation, IEEE Transactions on Multimedia, accepted, 2024.
+
