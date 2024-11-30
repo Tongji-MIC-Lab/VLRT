@@ -37,8 +37,13 @@ Follow the steps in `data/README.md`.
 
 #### Data preparation
 msrvtt
-For the convenience, you can also download the splits and captions by,
+
 wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
+
+msvd
+
+wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msvd_data.zip
+
 
   
 ### Citation:
